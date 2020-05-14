@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Losowanie.exe" version="1.0.0.1" publicKeyToken="63e93092e667afde" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Losowanie" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Losowanie.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Losowanie.exe" size="7656">
+      <assemblyIdentity name="Losowanie" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1S5USKoFTaLPbEQ1K+N0m71vMb+vSmek+wz5lr31HiM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Losowanie.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-8S44FUB\Lenovo" issuerKeyHash="8b3239b0e174c40f369aa375cb7726ae4edbaec2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>N3WK0f6U32PIK4/bBSRHFOjdJXurthRYpBA/T/c7mQo=</DigestValue></Reference></SignedInfo><SignatureValue>dHY+2Opv6rGpKc9KoELG7wRM9ekbcL9fhQbnx/+mYQcbdwIdN3b8TKSXFj4uPOko4e1uu66SWxygQ+HpNouiz2meU76hwK6nQVrgIefLBkdTMq0POpWKxZfjyAO9m7csEX5nobOndDm7Z4t3NuuVzaOqPTnZbDd5qYgJ6r5ch2w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>pv6wP+/qqP6vEEy3j8iZx5o8tCRYSI786cX3U69MMmjp4tyrw0NRguF+oX5fiNS1PbYJTG4wqEgf3jAXawptDnHPo2q4icIqA5A14RpaLKTgNaFpR1tTAL1dyM00NBbA6Yw1Im3dYpx1GdRHIRiuLqbkXVR3meq6LyuwVlUDnTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="0a993bf74f3f10a45814b6ab7b25dde814472405db8f2bc863df94fed18a7537" Description="" Url=""><as:assemblyIdentity name="Losowanie.exe" version="1.0.0.1" publicKeyToken="63e93092e667afde" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-8S44FUB\Lenovo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FSHE+NOyeKvgm/VglURyfOD50TjOER8E9PEayy1nCHI=</DigestValue></Reference></SignedInfo><SignatureValue>l8LsCgD8OyG9I9vWsRjs100X8fsUiwxNxpcRGxtgIaY9dORBItzYE/5bDgSWwgfdjE4CC4PfLuDkiy23KZErovk1Ij+wwnP6sfca6IEzmd2HqtFsMDq19GDBs0UvLbccBxt9A/YD9UmVRRQ3fC8Qa+WqajZ3HEs48KgBZY1oQKE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>pv6wP+/qqP6vEEy3j8iZx5o8tCRYSI786cX3U69MMmjp4tyrw0NRguF+oX5fiNS1PbYJTG4wqEgf3jAXawptDnHPo2q4icIqA5A14RpaLKTgNaFpR1tTAL1dyM00NBbA6Yw1Im3dYpx1GdRHIRiuLqbkXVR3meq6LyuwVlUDnTE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQRd1S98VGgLBJZqts2faxezANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADgAUwA0ADQARgBVAEIAXABMAGUAbgBvAHYAbzAeFw0yMDA1MTIxODI1MzlaFw0yMTA1MTMwMDI1MzlaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AOABTADQANABGAFUAQgBcAEwAZQBuAG8AdgBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCm/rA/7+qo/q8QTLePyJnHmjy0JFhIjvzpxfdTr0wyaOni3KvDQ1GC4X6hfl+I1LU9tglMbjCoSB/eMBdrCm0Occ+jariJwioDkDXhGlospOA1oWlHW1MAvV3IzTQ0FsDpjDUibd1inHUZ1EchGK4upuRdVHeZ6rovK7BWVQOdMQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIJDYveKHNPrPBtgKzYxySjOonWLmVFjWUy26EZZz26AeUgcSYsOfjhD1EHIHarByFOS7O0sztmkyL73C4owkkaoROzlcP5oo5RpFZn95hz8F3PbmGbo6HQ/fN9f0u43OaUo2XSaPzMiTJg5P9VjYwCbJ93++mBtBKBXiUaJ7yvY</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

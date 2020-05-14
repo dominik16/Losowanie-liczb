@@ -1,0 +1,10 @@
+E:\Programowanie\Losowanie\Losowanie\Losowanie\obj\Debug\Losowanie.csprojAssemblyReference.cache
+E:\Programowanie\Losowanie\Losowanie\Losowanie\bin\Debug\Losowanie.exe.config
+E:\Programowanie\Losowanie\Losowanie\Losowanie\bin\Debug\Losowanie.exe
+E:\Programowanie\Losowanie\Losowanie\Losowanie\bin\Debug\Losowanie.pdb
+E:\Programowanie\Losowanie\Losowanie\Losowanie\obj\Debug\Losowanie.exe
+E:\Programowanie\Losowanie\Losowanie\Losowanie\obj\Debug\Losowanie.pdb
+E:\Programowanie\Losowanie\Losowanie\Losowanie\bin\Debug\Losowanie.exe.manifest
+E:\Programowanie\Losowanie\Losowanie\Losowanie\bin\Debug\Losowanie.application
+E:\Programowanie\Losowanie\Losowanie\Losowanie\obj\Debug\Losowanie.exe.manifest
+E:\Programowanie\Losowanie\Losowanie\Losowanie\obj\Debug\Losowanie.application
